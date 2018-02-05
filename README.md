@@ -7,8 +7,8 @@
 > ![](https://github.com/huanhulan/glitch/blob/master/glitch.png?raw=true)
 >
 > If you code this in RxJS and then load it in the browser, you get these alerts:
->>  * 101
->>  * 102
->>  * 202
+>  * 101
+>  * 102
+>  * 202
 >
 > -- <cite> Stephen Blackheath in *Functional Reactive Programming*</cite>
