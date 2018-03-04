@@ -4,11 +4,11 @@ const merge = require("webpack-merge");
 const webpack = require('webpack');
 
 const cssLoaderOptions = {
-    camelCase: true,
-    modules: true,
     minimize: true,
     namedExport: true,
-    scss: true
+    scss: true,
+    sourceMap: true,
+    modules: false
 };
 
 const sassLoaderOptions = {};

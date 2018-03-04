@@ -17,7 +17,7 @@ const sassLoaderOptions = {
 module.exports = merge(common(cssLoaderOptions, sassLoaderOptions), {
     devServer: {
         compress: true,
-        port: 3000
+        port: 3001
     },
     output: {
         filename: "bundle.js",

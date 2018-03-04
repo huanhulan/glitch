@@ -17,7 +17,10 @@ module.exports = function (cssLoaderOptions, sassLoaderOptions) {
         module: {
             rules: [{
                 test: /\.ts?$/,
-                loader: "awesome-typescript-loader"
+                loaders: [
+                    "babel-loader?presets[]=es2015",
+                    "awesome-typescript-loader"
+                ]
             }, {
                 test: /\.scss$/,
                 use: ExtractTextPlugin.extract({
